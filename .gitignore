@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/target/
+frontend/dist/
+
+# Large media files
+exercises-dataset/images/
+exercises-dataset/videos/
+backend/src/main/resources/exercises-dataset/images/
+backend/src/main/resources/exercises-dataset/videos/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build output
+backend/build/
+
+# Test files
+test_output*.json
+check_*.py
+import_*.py
+import_*.sql
+clear_data.sql
+find_mysql.py
+fix_charset.sql
+reimport_data.py
+clean_and_import.py
+
+# Java class files
+*.class
+*.jar
+*.war
+*.ear
